@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mettle</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8dc1d99a67.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="index.html">
+            <img
+              src="images/mettlelogo.png"
+              class="logo"
+              href="index.html"
+              alt="logo"
+            />
+          </a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#guestLectures">Guest Lectures</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#excomms">Excomms</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Welcome to <span>Mettle'23</span></h1>
+          <p>
+            The Annual Technical Symposium of Department of Metallurgical and
+            Materials Engineering, National Institute of Technology
+            Tiruchirappalli
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/mettle.jpeg" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+            <p>
+              Welcome to Mettle, the Annual National Level Technical Symposium
+              of the Department of Metallurgical and Materials Engineering at
+              NIT Trichy. We bring together students and professionals in the
+              field of metallurgical and materials engineering to learn,
+              connect, and advance their knowledge and skills through Workshops,
+              Guest Lectures and much more.
+            </p>
+            <br />
+            <h2 style="color: white">Schedule</h2>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('27th')">
+                27th Fri
+              </p>
+              <p class="tab-links" onclick="opentab('28th')">28th Sat</p>
+              <p class="tab-links" onclick="opentab('29th')">29th Sun</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="27th">
+              <ul>
+                <li>
+                  <span>10:00 AM - 12:30 PM</span><br />INAUGURATION + GL
+                  <br />Venue: A02 Hall
+                </li>
+                <li>
+                  <span>02:00 PM - 04:00 PM</span><br />3d Printing - Workshop
+                  <br />Venue: A02 Hall
+                </li>
+                <li>
+                  <span>04:00 PM - 06:00 PM</span><br />Combinatorials
+                  <br />Venue: Orion G3
+                </li>
+                <li>
+                  <span>06:15 PM - 07:00 PM</span><br />Chain of words -
+                  Informals <br />Venue: A11 Hall
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="28th">
+              <ul>
+                <li>
+                  <span>10:00 AM - 12:00 PM</span><br />Metal Mania - Round 1
+                  <br />Venue: Orion G3
+                </li>
+                <li>
+                  <span>12:30 PM - 04:30 PM</span><br />Material Informatics -
+                  Workshop <br />Venue: Orion G1/G2
+                </li>
+                <li>
+                  <span>04:30 PM - 06:45 PM</span><br />What If <br />Venue:
+                  Orion G3
+                </li>
+                <li>
+                  <span>06:45 PM - 07:30 PM</span><br />Quintuples - Informals
+                  <br />Venue: A11 Hall
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="29th">
+              <ul>
+                <li>
+                  <span>09:30 AM - 10:45 AM</span><br />Metal Mania - Round 2
+                  <br />Venue: Orion G3
+                </li>
+                <li>
+                  <span>09:30 AM - 10:45 AM</span><br />Industrial GL
+                  <br />Venue: A13 Hall
+                </li>
+                <li>
+                  <span>10:45 AM - 01:45 PM</span><br />Ace the Case
+                  <br />Venue: A11 Hall
+                </li>
+                <li>
+                  <span>03:00 PM - 05:00 PM</span><br />NDT - Workshop
+                  <br />Venue: A02 Hall
+                </li>
+                <li>
+                  <span>05:00 PM - 07:00 PM</span><br />DJ night <br />Venue:
+                  Barn Hall
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- workshops -->
+    <div id="workshops">
+      <div class="container">
+        <h1 class="sub-title">Workshops</h1>
+        <div class="workshops-list">
+          <div>
+            <img src="images/3dArtboard .png" alt="" />
+            <h2 style="color: gold">3D Printing</h2>
+            <p>
+              Metallic 3D printing is a revolutionary technology which produces
+              functional components layer by layer using 3D - CAD data as the
+              input. Many strategic applications are done using metallic 3d
+              printing. RapidDMLS is an expert at manufacturing complex parts
+              for aircraft and automotive applications. Do you want to know how
+              it's done? Do apply for the metallic 3D printing workshop
+              happening on 27th January!!!!
+            </p>
+            <br />
+            <p style="color: gold">
+              INR 200 <br />
+              <br />
+              Date: 27th Jan <br />
+              Time: 2PM-4PM <br />
+              Venue: A02 Hall
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+
+          <div>
+            <img src="images/MIArtboard.png" alt="" />
+            <h2 style="color: gold">Material Informatics</h2>
+            <p>
+              To understand, use, select, develop, and discovering materials we
+              used traditional methods now lets embrace technology into the
+              traditional methods and combine the knowledge to increase the
+              outcome and accuracy of processes. The data being collected
+              through the substrata from Material Informatics is what we are
+              going to see.
+            </p>
+            <br />
+            <p style="color: gold">
+              INR 175 (Workshop) + INR 100 (Hackathon)
+              <br />
+              <br />
+              Date: 28th Jan
+              <br />
+              Time: 2PM-4PM
+              <br />
+              Venue: Orion G1/G2
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+
+          <div>
+            <img src="images/NDTArtboard.png" alt="" />
+            <h2 style="color: gold">Non Destructive Testing</h2>
+            <p>
+              It is no more a mystery that we have innovation leaking somewhere
+              down in each circle of life. Consider a gadget, for example, a
+              cell phone, where you need to check the gadget for every one of
+              the imperfections and habits. How protected is the gadget? What
+              are the measures one has to watch while taking care of it? How
+              might you distinguish any shortcomings in the gadget? Answers to
+              these questions can be explained by Non-Destructive Testing
+              Methods which became an in-demand career option in today's
+              economy.
+            </p>
+            <br />
+            <p style="color: gold">
+              INR 200
+              <br />
+              <br />
+              Date: 29th Jan
+              <br />
+              Time: 2PM-4PM
+              <br />
+              Venue: A02 Hall
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+
+          <div>
+            <img src="images/Hackathon-poster.png" alt="" />
+            <h2 style="color: gold">Hackathon</h2>
+            <p>
+              The portmanteau of the word hacker that brings computer
+              programmers together in a realm to live the dream of a high tech
+              professional coder. Providing you with an opportunity learn and
+              apply a combination of data analytic skills and tackle various
+              industrial and research problem statements from your mentors and
+              peers.
+            </p>
+            <br />
+            <p style="color: gold">
+              INR 100
+              <br />
+              <br />
+              Date: 29th Jan
+              <br />
+              Time: 2PM-4PM
+              <br />
+              Venue: A02 Hall
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- guestLectures -->
+    <div id="guestLectures">
+      <div class="container">
+        <h1 class="sub-title">Guest Lectures</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://materials.iisc.ac.in/~qjayaram/index_files/image002.png"
+              alt=""
+            />
+            <div class="layer">
+              <h3>Prof. Vikram Jayaram</h3>
+              <p>
+                Honorary Professor | Department of Materials Engg. | Indian
+                Institute of Science.
+              </p>
+              <a href="https://materials.iisc.ac.in/~qjayaram/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://media.licdn.com/dms/image/C5603AQFIjhdIsyySKA/profile-displayphoto-shrink_400_400/0/1517552184568?e=1705536000&v=beta&t=bY6BX4w5-wlTDXJ7JMCWBldO54T5y_vVX1GN7SFEYgM"
+              alt=""
+            />
+            <div class="layer">
+              <h3>Dr Debashish Bhattacharjee</h3>
+              <p>
+                Vice President Technology & New Materials Business | Tata Steel
+              </p>
+              <a
+                href="https://www.linkedin.com/in/debashish-bhattacharjee-273a1a4a/?originalSubdomain=in"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/TNR.png" alt="" />
+            <div class="layer">
+              <h3>Dr. Tata Narasinga Rao</h3>
+              <p>
+                Director | International Advanced Research Centre for Powder
+                Metallurgy and New Materials (ARCI)
+              </p>
+              <a href="https://www.arci.res.in/people-pages/tn-rao-cv.pdf"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- event -->
+    <div id="events">
+      <div class="container">
+        <h1 class="sub-title">Events</h1>
+        <div class="events-list">
+          <div>
+            <img src="images/Combinatorials 8.png" alt="" />
+            <h2 style="color: gold">Combinatorials</h2>
+            <p>
+              Are you a materials science enthusiast looking for an exciting new
+              challenge? Look no further! Combinatorials - Our Materials
+              Selection Event is the perfect opportunity for you to showcase
+              your expertise and innovative thinking. With a series of problem
+              statements covering a wide range of materials-related challenges,
+              you'll have the chance to suggest the best material for the job
+              and demonstrate why it's the optimal choice. Whether you're a
+              seasoned materials scientist or a budding engineer, this event is
+              sure to provide plenty of opportunities to learn, grow, and shine.
+              So don't wait – sign up now and join us on the cutting edge of
+              materials science!
+            </p>
+            <br />
+            <p style="color: gold">
+              1st: ₹ 1250 + Voucher worth ₹2000
+              <br />
+              2nd: ₹ 750 + Voucher worth ₹2000
+              <br />
+              3rd: ₹ 500 + Voucher worth ₹2000
+            </p>
+            <br />
+            <p>
+              Date : Jan 27,2023<br />
+              Time : 4:00 PM to 6:00 PM <br />
+              Venue : Orion G3
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+
+          <div>
+            <img src="images/MetalMania.png" alt="" />
+            <h2 style="color: gold">Metal Mania</h2>
+            <p>
+              Listen to learn and Introspect to improve. Organized by the
+              acclaimed Indian Institute of Metals, Trichy chapter, Mettle’23
+              presents a challenge, a culmination of questions covering the vast
+              domain of science to Introspect yourself in this boundless domain
+              of Metallurgy and Material science. Harness your observation!!
+              Sharpen Your aptitude! Show your Mettle and Improve!
+            </p>
+            <br />
+            <p style="color: gold">
+              1st: ₹ 1500
+              <br />
+              2nd: ₹ 1000
+              <br />
+              3rd: ₹ 500
+            </p>
+            <br />
+            <p>
+              Round - 1
+              <br />
+              Date : Jan 28,2023
+              <br />
+              Time : 10:00 AM to 12:00 PM
+              <br />
+              Venue : Orion G3
+            </p>
+            <br />
+            <p>
+              Round - 2
+              <br />
+              Date : Jan 29,2023
+              <br />
+              Time : 9.30 AM to 10:45 AM
+              <br />
+              Venue : Orion G3
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+
+          <div>
+            <img src="images/whatif.png" alt="" />
+            <h2 style="color: gold">What If</h2>
+            <p>
+              Are you among those who dream of wispy ideas turning corporeal? An
+              idealist whose mind is ever attuned to the what ifs? Here’s our
+              handcrafted event, “WHAT IF,” that puts to test how well radical
+              thinkers question every momentous development. Prove your mettle
+              with your eloquence on the given set of perpetual fractals!
+            </p>
+            <br />
+            <p style="color: gold">
+              1st: ₹ 1250 + Voucher worth ₹2000
+              <br />
+              2nd: ₹ 750 + Voucher worth ₹2000
+              <br />
+              3rd: ₹ 500 + Voucher worth ₹2000
+            </p>
+            <br />
+            <p>
+              Date : Jan 28,2023
+              <br />
+              Time : 4:30 PM to 6:45 PM
+              <br />
+              Venue : A11
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+
+          <div>
+            <img src="images/Ace the Case.png" alt="" />
+            <h2 style="color: gold">Ace the Case</h2>
+            <p>
+              Are you ready to put your metallurgical or materials science
+              skills to the test? Join the Mettle'23 case study event and find
+              out! Participants will be given a real-world problem to solve,
+              just like a professional in the field. Teams of up to 3 members or
+              individuals can take on the challenge. On the final day of the
+              symposium, present your solution in a 5-10 minute presentation to
+              a panel of judges. The winning team or individual will be awarded
+              a cash prize. Don't miss this exciting opportunity to put yourself
+              in the shoes of a metallurgist or materials scientist and solve a
+              real problem!
+            </p>
+            <br />
+            <p style="color: gold">
+              1st: ₹ 1750 + Voucher worth ₹2000
+              <br />
+              2nd: ₹ 1000 + Voucher worth ₹2000
+              <br />
+              3rd: ₹ 750 + Voucher worth ₹2000
+            </p>
+            <br />
+            <p>
+              Date : Jan 29,2023
+              <br />
+              Time : 10:45 AM to 1:45 PM
+              <br />
+              Venue : A11
+            </p>
+            <a href="" class="btn btn2">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- excomms -->
+    <div id="excomms">
+      <div class="container">
+        <h1 class="sub-title">Executive Committee</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://media.licdn.com/dms/image/C4E03AQEas3XQ2FiDvA/profile-displayphoto-shrink_800_800/0/1639725547387?e=1705536000&v=beta&t=p7w6FZ621p_P567WKrpl4RXu_xL0YrhzDDxo2zf29oM"
+              alt=""
+            />
+            <div class="layer">
+              <h3>Rishika M</h3>
+              <p>President</p>
+              <a href="https://www.linkedin.com/in/rishika-m-1819a8219/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://media.licdn.com/dms/image/D5603AQGfulEaAS5uLQ/profile-displayphoto-shrink_800_800/0/1697643842790?e=1705536000&v=beta&t=_2EYiz4j3li5kC1EV8v2Vhr6B5ZGMtEIVDMPh-pjUpU"
+              alt=""
+            />
+            <div class="layer">
+              <h3>Nishanth S</h3>
+              <p>Overall Coordinator</p>
+              <a href="https://www.linkedin.com/in/nishanthsekar2002/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="https://media.licdn.com/dms/image/C4D03AQETmUTp4J--aA/profile-displayphoto-shrink_800_800/0/1654980754718?e=1705536000&v=beta&t=3fP51KdU0aM7QpwlRrWitg6PHuZQ4FAzzG1bas__3lY"
+              alt=""
+            />
+            <div class="layer">
+              <h3>Tarun Kumaar</h3>
+              <p>Overall Coordinator</p>
+              <a href="https://www.linkedin.com/in/tarun-kumaar-mk/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Sap.enc" alt="" />
+            <div class="layer">
+              <h3>Sapthagirivasan R T</h3>
+              <p>Treasurer</p>
+              <a
+                href="https://www.linkedin.com/in/sapthagirivasan-r-t-38950522b/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Register</h1>
+            <p><i class="fa-solid fa-envelope"></i>mettle@nitt.edu</p>
+            <p><i class="fa-solid fa-phone"></i>+91 95411 97178</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/nitt.mettle/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/MettleNitt"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/mettle_nitt/?hl=en"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://in.linkedin.com/company/mettle-nit-trichy"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://mettle.nitt.edu/index.html"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+            </div>
+            <br />
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Name" required />
+              <input
+                type="number"
+                name="Phone Number"
+                placeholder="Phone Number"
+                required
+              />
+              <input type="email" name="Email" placeholder="Email" required />
+              <input
+                type="text"
+                name="College Name"
+                placeholder="College Name"
+                required
+              />
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <p>
+          Made with <i class="fa-solid fa-heart" style="color: #ff0000"></i> by
+          Ryhan Khan
+        </p>
+      </div>
+    </div>
+
+    <script>
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
+
+      const opentab = (tabname) => {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      };
+    </script>
+
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+      const openmenu = () => {
+        sidemenu.style.right = "0";
+      };
+      const closemenu = () => {
+        sidemenu.style.right = "-200px";
+      };
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzfjN4e9HqBZEL0wdEpBUjvK7-4YpMVvBdrX5GbXGDNTJTx9gDXy6iVriQt8RP9NVHBNA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
